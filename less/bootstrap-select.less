@@ -30,8 +30,8 @@
   }
 
   .dropdown-toggle:focus {
-    outline: thin dotted #333333 !important;
-    outline: 5px auto -webkit-focus-ring-color !important;
+    outline: thin dotted @color-dropdown-border;
+    outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
   }
 }
@@ -329,15 +329,15 @@
 
 select.bs-select-hidden,
 select.selectpicker {
-  display: none !important;
+  display: none;
 }
 
 select.mobile-device {
-  position: absolute !important;
+  position: absolute;
   top: 0;
   left: 0;
-  display: block !important;
+  display: block;
   width: 100%;
-  height: 100% !important;
+  height: 100%;
   opacity: 0;
 }
